@@ -9,7 +9,7 @@ import math
 base_lr = 1e-3
 min_lr = 0
 warmup_epochs = 40
-epochs = 800
+epochs = n_epochs
 
 
 def adjust_learning_rate(optimizer, epoch):
